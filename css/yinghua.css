@@ -1,0 +1,29 @@
+body{
+    /*max-width:100%;*/
+    background: url('../images/1.gif');
+    /* box-sizing: border-box; */
+}
+.cover{
+    margin-left: 50px;
+    width: 200px;
+    height: 500px;
+    background: #090c0c;
+}
+.name{
+    border: 1px solid #090c0ca2;
+    border-radius: 30px;
+    width:400px;
+    height: 100px;
+    text-align: center;
+    background: #090c0ca2;
+    margin-left: 1000px;
+    margin-top: -40px;
+}
+a{
+    display: block;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: "STLiti";
+}

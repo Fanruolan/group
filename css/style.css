@@ -1,0 +1,467 @@
+/*
+	Iridium by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		font-family: "STXinwei" !important;
+		background: #ffffff !important;
+	}
+
+	body,input,textarea,select
+	{
+		font-family: 'Arimo', sans-serif;
+		font-size: 11pt;
+		line-height: 1.75em;
+		color: #4c4c4c;
+	}
+
+	h1,h2,h3,h4,h5,h6
+	{
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+		{
+			color: inherit;
+			text-decoration: none;
+		}
+		
+	/* Change this to whatever font weight/color pairing is most suitable */
+	strong, b
+	{
+		font-weight: bold;
+		color: #000000;
+	}
+	
+	em, i
+	{
+		font-style: italic;
+	}
+
+	/* Don't forget to set this to something that matches the design */
+	a
+	{
+		text-decoration: underline;
+		color: #272727;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	sub
+	{
+		position: relative;
+		top: 0.5em;
+		font-size: 0.8em;
+	}
+	
+	sup
+	{
+		position: relative;
+		top: -0.5em;
+		font-size: 0.8em;
+	}
+	
+	hr
+	{
+		border: 0;
+		border-top: solid 1px #ddd;
+	}
+	
+	blockquote
+	{
+		border-left: solid 0.5em #ddd;
+		padding: 1em 0 1em 2em;
+		font-style: italic;
+	}
+	
+	p, ul, ol, dl, table
+	{
+		margin-bottom: 1em;
+	}
+
+	header
+	{
+		margin-bottom: 1em;
+	}
+	
+		header .byline
+		{
+			display: block;
+			margin: 2.0em 0 -15px 0;
+			padding: 0 0 0.5em 0;
+		}
+		
+	footer
+	{
+		margin-top: 1em;
+	}
+
+	br.clear
+	{
+		clear: both;
+	}
+
+	/* Sections/Articles */
+	
+		section{
+		margin-bottom: 3em;
+		}
+		.myself{
+			width: 1200px;
+			overflow: hidden;
+		}
+		.photo{
+			width: 100px;
+			height: 100px;
+			float: left;
+			margin-left: 25px;
+			background: url("../images/樊若兰.JPG") no-repeat center;
+			background-size: 100%;
+			border:1px solid #fcd7d9;
+			border-radius: 25px;
+		}
+		.left{
+			text-align: center;
+			margin-left: 100px;
+			width:400px;
+			height:400px;
+			background: url("../images/10.jpg") no-repeat center;
+			background-size: 100%;
+			border:1px solid #fcd7d9;
+			border-radius: 200px;
+		}
+		.left p:first-child{
+			margin-top: 60px;
+		}
+		.myself p{
+			font-weight: bolder;
+			font-size: 22px;
+			font-family: "YouYuan";
+		}
+		.right{
+			float: left;
+			margin-left: 550px;
+			margin-top:-380px;
+		}
+		.right p{
+			margin-top: 50px;
+		}
+		.jieshao h2{
+			font-size: 3em;
+			margin-bottom: 50px;
+		}
+		.jieshao h3{
+			margin-top: 30px;
+			font-size: 2em;
+			margin-bottom: 30px;
+		}
+		.jieshao img{
+			transition: all 500ms;
+			margin-top: 20px;
+			width: 400px;
+			height: 300px;
+		}
+		.jieshao img:hover{
+			transform: translateY(-15px);
+            box-shadow: 0 0 10px 3px #999;
+		}
+		.hometown{
+			width: 1400px;
+			margin-top: 100px;
+		}
+		.university{
+			width: 1400px;
+			margin-top: 50px;
+		}
+		.aihao{
+			width: 1400px;
+			height: 500px;
+			margin-top: 50px;
+			margin-bottom: 5em;
+		}
+		section > :last-child,
+		article > :last-child
+		{
+			margin-bottom: 0;
+		}
+
+		section:last-child,
+		article:last-child
+		{
+			margin-bottom: 0;
+		}
+
+		.row > section,
+		.row > article
+		{
+			margin-bottom: 0;
+		}
+
+	/* Lists */
+
+		ul.default
+		{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		
+			ul.default li
+			{
+				padding: 0.60em 0em;
+				border-top: 1px solid;
+				border-color: rgba(255,255,255,.1);
+			}
+			
+			ul.default li:first-child
+			{
+				padding-top: 0;
+				border-top: none;
+			}
+			
+			ul.default a
+			{
+				text-decoration: none;
+				color: rgba(22, 22, 22, 0.5);
+			}
+			
+			ul.default a:hover
+			{
+				text-decoration: underline;
+			}
+			
+		ul.style {
+		}
+		
+		ul.style li {
+			margin: 0;
+			padding: 1em 0em 1em 0em;
+			border-top: 1px solid #ECECEC;
+		}
+		
+		ul.style li:first-child
+		{
+			padding-top: 0;
+			border-top: none;
+		}
+		
+		ul.style img {
+			width: 30px;
+			height: 30px;
+			float: left;
+			margin-right: 20px;
+		}
+		
+		ul.style a{
+			font-size: 20px;
+			text-decoration: none;
+		}
+		
+		ul.style .posted {
+			padding: 0em 0em 1em 0em;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 15px;
+			color: #A2A2A2;
+		}
+		
+		ul.style .first {
+			padding-top: 0px;
+			border-top: none;
+		}
+		.shpw{
+			float: left;
+			width: 1200px;
+			height:1050px;
+			margin-left: 10px;
+			border: 1px solid #EAEAEA;
+			box-sizing: border-box;
+			background-color: #f2f8f6;
+			
+		}
+		iframe {
+			float: left;
+			width: 788px;
+			height:950px;
+			margin-left: 10px;
+			border: 1px solid #EAEAEA;
+			box-sizing: border-box;
+			background-color: #f2f8f6;
+			
+		}
+	/* Buttons */
+		
+		.button1,.button2,.button3
+		{
+			position: relative;
+			display: inline-block;
+			text-align: center;
+			margin-left:50px;
+			width: 300px;
+			height: 80px;
+			margin-top: 1em;
+			padding: 0.90em 1.5em;
+			border-radius: 30px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1.1em;
+			color: #FFF;
+			-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			cursor: pointer;
+		}
+		.button1{
+			background: #ffcbac url("../images/gitee.png")no-repeat center ;
+		}
+		.button2{
+			background: #eb3e40 url("../images/html.png") no-repeat center;
+		}
+		.button3{
+			background: #b10101 url("../images/bootstrap.png") no-repeat center;
+		}
+			.button1:hover
+			{
+				background: #ffcbac url("../images/gitee.png") no-repeat center;
+
+			}
+			.button2:hover
+			{
+				background: #eb3e40 url("../images/html.png") no-repeat center;
+			}
+			.button3:hover
+			{
+				background: #b10101 url("../images/bootstrap.png") no-repeat center;
+			}
+			
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		width: 100%;
+		height: 480px;
+		background: #2a2f27 url(../images/17.jpg) no-repeat center;
+		background-size: cover;
+		
+	}
+
+	#logo
+	{
+	
+	}
+	
+	#nav
+	{
+	}
+
+		#nav ul
+		{
+			margin: 0;
+		}
+	
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		position: relative;
+		background: #333;
+		color: #fff;
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		position: relative;
+		background-size: cover;
+		width:100%;height:2950px;
+		background: #fff url('../images/main.jpg') no-repeat center;
+		background-size: 105%;
+	}
+	#main1
+	{
+		
+		width:100%;height:1650px;
+		background: #fff url('../images/main2.jpg') no-repeat center;
+		position: relative;
+		background-size: cover;
+	}
+	#main2
+	{
+		width:100%;height:2100px;
+		background: #fff url('../images/main1.jpg') no-repeat center;
+		position: relative;
+		background-size: cover;
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+	
+	#featured
+	{
+		position: relative;
+		/* background: #ffffff; */
+	}
+	
+	#featured h2
+	{
+		display: block;
+		margin-bottom: 2em;
+		font-size: 1.4em;
+	}
+	.pic img{
+		transition: all 600ms;
+		margin-top: 20px;
+		width: 390px;
+		height: 250px;
+	}
+	.pic img:hover{
+		transform: translateY(-15px);
+		box-shadow: 0 0 10px 3px #999;
+	}
+	.danyang{
+		margin-bottom: 100px;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+	
+	#copyright
+	{
+		width: 100%;
+		height: 100px;
+		background: #6e6e6e88;
+		position: absolute;
+		bottom: 0;right: 0;
+		letter-spacing: 1px;
+		text-align: center;
+		color: #333333;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: #333333;
+	}	
